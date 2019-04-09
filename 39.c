@@ -3,6 +3,7 @@
 #include<stdlib.h>
 void main()
 {
+	system("color 8f");
 	int i,j,temp1,temp2;
 	int at=0;
 	int max=5;
@@ -10,17 +11,23 @@ void main()
 	int pro[5]={1,2,3,4,5};
 	float awt=0,atat=0;
 	int bt[5]={10,29,3,7,12};
-	printf("The processes are as follows:\n");
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	printf("\t\t\t\tThe processes are as follows:\n");
 	for(i=0;i<max;i++)
 	{
-		printf("P[%d]\n",pro[i]);
+		printf(" \t P[%d]\t",pro[i]);
 	}
-	
-	printf("The burst time of the processes are as follows:\n");
+	printf("\n");
+	printf("\n");
+	printf("\t\tThe burst time of the respective processes are as follows:\n");
 for(i=0;i<max;i++)
 {
-	printf("%d\n",bt[i]);
+	printf("\t%d\t",bt[i]);
 }
+printf("\n");
+printf("\n");
 // bubble sort for sjf
 for(i=0;i<max;i++)
 {
@@ -62,9 +69,9 @@ for(i=0;i<max;i++)
 
 awt/=max;
 atat/=max;
-
-printf("\nAverage waiting time is= %f\n",awt);
-printf("\nAverage turn around time is= %f\n",atat);
-printf("\nThe ending time of P[%d] is =%d",pro[1],et[1]);
+printf("\n");
+printf("\n\t\t\t\t  Average waiting time is= %f\n",awt);
+printf("\n\t\t\t\tAverage turn around time is= %f\n",atat);
+printf("\n\t\t\t     The ending time of P[i] which is P[%d] is =%d",pro[1],et[1]);
 getch();
 }
