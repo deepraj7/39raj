@@ -1,17 +1,18 @@
                         Enter the number of processes
 5
-                                Enter the process id:
-Enter the id of process(1):=1
-Enter the id of process(2):=2
-Enter the id of process(3):=3
-Enter the id of process(4):=4
-Enter the id of process(5):=5
-                Enter the burst time of the respective processes:
-Enter the burst time of process(1):=10
-Enter the burst time of process(2):=29
-Enter the burst time of process(3):=3
-Enter the burst time of process(4):=7
-Enter the burst time of process(5):=12
+
+                                Enter the process id:  
+Enter the id of process(1):=1  
+Enter the id of process(2):=2  
+Enter the id of process(3):=3  
+Enter the id of process(4):=4  
+Enter the id of process(5):=5  
+                Enter the burst time of the respective processes:  
+Enter the burst time of process(1):=10  
+Enter the burst time of process(2):=29  
+Enter the burst time of process(3):=3  
+Enter the burst time of process(4):=7  
+Enter the burst time of process(5):=12  
 
 
 
