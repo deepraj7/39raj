@@ -13,15 +13,12 @@ void main()
 	int bt[max];
 	printf("\t\t\tEnter the number of processes\n");
 	scanf("%d",&max); //to enter the number of process 
-//	printf("\n");
 	printf("\t\t\t\tEnter the process id:\n");
 	for(i=0;i<max;i++)
 	{
 		printf("Enter the id of process(%d):=",i+1); //for process id
 		scanf(" %d",&pro[i]);
 	}
-//	printf("\n");
-//	printf("\n");
 	printf("\t\tEnter the burst time of the respective processes:\n");
 for(i=0;i<max;i++)
 {
